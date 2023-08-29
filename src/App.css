@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: radial-gradient(
+    63.56% 68.77% at 70.75% 18.81%,
+    #ffe7fa 0%,
+    #fff 44.27%,
+    #fff 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 300px;
+  height: 550px;
+}
+
+.box .group {
+  width: 300px;
+  height: 550px;
+  top: 0;
+  left: 0;
+  background-color: #f4f4f1;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #000000;
+  box-shadow: 5px 5px 0px #000000;
+}
+
+.box .overlap-wrapper {
+  position: relative;
+  width: 261px;
+  height: 490px;
+  top: 29px;
+  left: 18px;
+}
+
+.box .overlap {
+  position: relative;
+  width: 262px;
+  height: 490px;
+}
+
+.box .div {
+  position: absolute;
+  width: 261px;
+  height: 468px;
+  top: 22px;
+  left: 0;
+}
+
+.box .group-2 {
+  position: absolute;
+  width: 261px;
+  height: 230px;
+  top: 238px;
+  left: 0;
+}
+
+.box .overlap-group-wrapper {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 0;
+  left: 1px;
+}
+
+.box .overlap-group {
+  position: relative;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid;
+}
+
+.box .overlap-hover:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border-color: #000000;
+  box-shadow: 2px 2px 0px #000000;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .div-wrapper {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 0;
+  left: 91px;
+}
+
+.box .overlap-group-2 {
+  position: relative;
+  width: 80px;
+  height: 30px;
+  background-color: #f4f4f1;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.box .text-wrapper-2 {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-3 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 80px;
+  left: 91px;
+}
+
+.box .text-wrapper-3 {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-4 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 120px;
+  left: 90px;
+}
+
+.box .text-wrapper-4 {
+  position: absolute;
+  top: 8px;
+  left: 21px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-5 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 160px;
+  left: 90px;
+}
+
+.box .text-wrapper-5 {
+  position: absolute;
+  top: 9px;
+  left: 13px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-6 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 200px;
+  left: 90px;
+}
+
+.box .text-wrapper-6 {
+  position: absolute;
+  top: 8px;
+  left: 28px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-7 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 80px;
+  left: 1px;
+}
+
+.box .group-8 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 120px;
+  left: 0;
+}
+
+.box .text-wrapper-7 {
+  position: absolute;
+  top: 8px;
+  left: 25px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-9 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 160px;
+  left: 0;
+}
+
+.box .text-wrapper-8 {
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-10 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 200px;
+  left: 0;
+}
+
+.box .group-11 {
+  position: absolute;
+  width: 172px;
+  height: 30px;
+  top: 40px;
+  left: 1px;
+}
+
+.box .overlap-2 {
+  position: relative;
+  height: 30px;
+}
+
+.box .rectangle {
+  position: absolute;
+  width: 170px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.box .text-wrapper-9 {
+  position: absolute;
+  top: 9px;
+  left: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-12 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 0;
+  left: 90px;
+}
+
+.box .group-13 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 0;
+  left: 181px;
+}
+
+.box .text-wrapper-10 {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-14 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 80px;
+  left: 181px;
+}
+
+.box .group-15 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 120px;
+  left: 180px;
+}
+
+.box .text-wrapper-11 {
+  position: absolute;
+  top: 8px;
+  left: 26px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-16 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 160px;
+  left: 180px;
+}
+
+.box .text-wrapper-12 {
+  position: absolute;
+  top: 8px;
+  left: 27px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-17 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 200px;
+  left: 180px;
+}
+
+.box .group-18 {
+  position: absolute;
+  width: 82px;
+  height: 30px;
+  top: 40px;
+  left: 181px;
+}
+
+.box .text-wrapper-13 {
+  position: absolute;
+  top: 8px;
+  left: 23px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-19 {
+  position: absolute;
+  width: 261px;
+  height: 208px;
+  top: 0;
+  left: 1px;
+}
+
+.box .p {
+  position: absolute;
+  width: 259px;
+  top: 169px;
+  left: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-20 {
+  position: absolute;
+  width: 164px;
+  height: 154px;
+  top: 0;
+  left: 47px;
+}
+
+.box .group-21 {
+  position: absolute;
+  width: 166px;
+  height: 44px;
+  top: 110px;
+  left: 0;
+}
+
+.box .text-wrapper-14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .group-22 {
+  position: absolute;
+  width: 114px;
+  height: 13px;
+  top: 31px;
+  left: 26px;
+}
+
+.box .frame {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 0;
+}
+
+.box .text-wrapper-15 {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .ellipse {
+  position: absolute;
+  border: 1px solid black;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 32px;
+  object-fit: cover;
+}
+
+.box .img {
+  position: absolute;
+  width: 25px;
+  height: 23px;
+  top: 0;
+  left: 236px;
+}
